@@ -13,14 +13,26 @@ if size=="M":
 if size=="L":
   bill=25
 if add_pepperoni=="Y":
-  if size=="s":
+  if size=="S":
     bill+=2
   if size=="M" or size=="L":
     bill+=3
 if extra_cheese=="Y":
   bill+=1
-print(f"Your final bill is ${bill}")
+print(f"Your final bill is: ${bill}.")
  
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
